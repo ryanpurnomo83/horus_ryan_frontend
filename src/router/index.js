@@ -21,7 +21,7 @@ const routes = [
         component: Dashboard
     },
     {
-        path: '/update-user', // ← Ubah ke path yang unik
+        path: '/update/user', // ← Ubah ke path yang unik
         name: 'UpdateUser',
         component: UpdateUser
     },

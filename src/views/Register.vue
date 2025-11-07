@@ -8,6 +8,6 @@
     </div>
     <div className="flex flex-row gap-5 align-items items-center justify-center">
         <button @click="$router.push('/login')">Login</button>
-        <button @click="">Register</button>
+        <button @click="$router.push('/dashboard')">Register</button>
     </div>
 </template>

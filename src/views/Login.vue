@@ -5,7 +5,7 @@
         <label>Password: <input type="password" className="border"/></label>
     </div>
     <div className="flex flex-row gap-5 align-items items-center justify-center">
-        <button>Login</button>
+        <button @click="$router.push('/dashboard')">Login</button>
         <button @click="$router.push('/register')">Register</button>
     </div>
 </template>
