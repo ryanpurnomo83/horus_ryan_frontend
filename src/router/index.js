@@ -21,9 +21,10 @@ const routes = [
         component: Dashboard
     },
     {
-        path: '/update/user', // ← Ubah ke path yang unik
+        path: '/update/user/:id', // ← Ubah ke path yang unik
         name: 'UpdateUser',
-        component: UpdateUser
+        component: UpdateUser,
+        props: true
     },
     // Optional: Tambahkan redirect untuk root path
     {
